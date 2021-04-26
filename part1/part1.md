@@ -44,7 +44,9 @@ e. false. true maps to 1, and 1 is not equal to 2. \
 f. true. Boolean(2) creates a boolean object with an initial value of true. Thus using the strict equality operator to compare true and true results in true. 
 
 15. The '===' operator is the strict equality operator. It checks the equality without type conversion, while the '==' operator does type conversion before comparison. 
+16. See js file
 17. [2, 4, 6]. Each element at array position i is passed into the callback function, and the element returned from the function doSomething is pushed to newArr. Since the callback function multiplies each array element by 2, each element in the original array is doubled before being pushed to newArr. 
+18. See js file
 19. \
 1\
 4\
