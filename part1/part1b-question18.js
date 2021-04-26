@@ -1,7 +1,7 @@
 
 function printTime() {
     let d = new Date();
-    let time = d.toLocaleDateString();
+    let time = d.toLocaleTimeString();
     console.log(time);
 }
 

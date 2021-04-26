@@ -5,7 +5,7 @@
 4. The code returns an error because the result variable is only scoped in the if block due to the let keyword. 
 5. Because of the const keyword the result variable cannot be reassigned to after it is assigned a value, so the code returns an error.
 6. Same answer as 5.
-# Part 2a
+# Part 1b
 1. 3 will be printed because i is incremented for each element of the array prices.
 2. 150 will be printed. The loop sets the variable discountedPrice to the element at index position i multiplied by 1 minus the discount percentage. Since the last element of the prices array to be evaluated to calculate discountedPrice is 300, and 300 * (1 - .5) = 150, 150 will be printed to the console. 
 3. 150 will also be printed for this line. Similar to the last question the last element of the prices array to be evaluated to calculate discountedPrice is 300, and discountedPrice is evaluated to 150 in line 7. In line 8, 150 is multiplied by 100 to get 15000, rounded to the nearest integer, and then divided by 100 so the result is still 150. Additionally the var keyword makes it so that discountedPrice can be accessed outside of the for block. 
